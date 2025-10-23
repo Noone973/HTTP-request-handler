@@ -10,13 +10,13 @@ A lightweight, concurrent HTTP/1.1 web server implemented in pure C.
 
 
 
-\- \*\*Concurrent Client Handling\*\*: Fork-based parallelism
+\- Concurrent Client Handling: Fork-based parallelism
 
-\- \*\*HTTP/1.1 Support\*\*: GET method implementation
+\- HTTP/1.1 Support: GET method implementation
 
-\- \*\*MIME Type Detection\*\*: Automatic content-type headers
+\- MIME Type Detection: Automatic content-type headers
 
-\- \*\*Security\*\*: Basic path traversal protection
+\- Security: Basic path traversal protection
 
 \- \*\*Efficient File Serving\*\*: Zero-copy file transmission
 
@@ -45,4 +45,5 @@ gcc -O2 -o server server.c
 \# Compile with all warnings enabled
 
 gcc -Wall -Wextra -Wpedantic -o server server.c
+
 
